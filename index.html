@@ -196,8 +196,57 @@ a { color: inherit; }
 }
 
 .project {
+    position: relative;
     padding: 0 0 28px;
     background: transparent;
+}
+
+/* L-образный акцент */
+.project::before {
+    content: "";
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+
+    width: 70px;
+    height: 1px;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(111, 145, 185, .22)
+    );
+
+    box-shadow: 0 0 8px rgba(111, 145, 185, .08);
+
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.project::after {
+    content: "";
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+
+    width: 1px;
+    height: 70%;
+
+    background: linear-gradient(
+        to top,
+        rgba(111, 145, 185, .22),
+        transparent
+    );
+
+    box-shadow: 0 0 8px rgba(111, 145, 185, .08);
+
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.project:hover::before,
+.project:hover::after {
+    opacity: 1;
 }
 
 /* separator between projects */

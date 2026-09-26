@@ -353,13 +353,13 @@ DATA = {
             desc: `
             Работал над несколькими проектами в качестве штатного сотрудника в аутсорс компании.
 
-            <a href="https://textdeliver.com" target="_blank" class="opensource-link">textdeliver.com <i class="fas fa-external-link-alt"></i></a>
+            <a href="https://textdeliver.com" target="_blank" class="opensource-link">textdeliver.com</a>
             Сервис для создания смс и e-mail рассылок, а так же роботизированных звонков. Разработал основную часть проекта. Интегрировал API: Twillio, CallRail, CallFire, MailChimp.
 
-            <a href="https://pressplay.io" target="_blank" class="opensource-link">pressplay.io <i class="fas fa-external-link-alt"></i></a>
+            <a href="https://pressplay.io" target="_blank" class="opensource-link">pressplay.io</a>
             Конструктор видео landing page. Разработка новых функций и поддержка. Интегрировал API: AWS file storage.
             
-            <a href="https://a2xanxiety.com" target="_blank" class="opensource-link">a2xanxiety.com <i class="fas fa-external-link-alt"></i></a>
+            <a href="https://a2xanxiety.com" target="_blank" class="opensource-link">a2xanxiety.com</a>
             Интернет магазин и CRM. Разрабатывал с нуля.
             `,
             tags: [64, 78, 72, 73, 74, 81, 82],
